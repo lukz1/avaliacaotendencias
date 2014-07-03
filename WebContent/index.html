@@ -2,13 +2,26 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="css/padrao.css">
 <title>Avaliação Tendencias</title>
 </head>
 <body>
+<div class="body">
+<form>
+Nome : 
+<input type="text" name="firstname"><br>
+<br>
+Idade : 
+<input type="text" name="idade"><br>
+<br>
+Sexo: 
 
-	<script src="js/main.js"></script>
+<input type="radio" name="sex" value="male"> Masculino
+
+<input type="radio" name="sex" value="female"> Feminino<br>
+<br>	
 	
-	Cores:
+Cores:
 	<select size="1" name="D1">
 <option selected value="Selecione">Selecione!</option>
 <option value="2000">Branco</option>
@@ -17,8 +30,28 @@
 <option value="2001">Amarelo</option>
 <option value="2001">Vermelho</option>
 <option value="2001">Rosa</option>
-<option value="2001">Verde</option>
+<option value="2001">Verde</option><br>
 </select>
+<br><br>
+<input type="submit" value="Adicionar">
 
+
+</form><br>
+</div>
+<div class="imagens">
+			<br><img alt="fotomasc" src="img/masc.jpg" align="left">
+			<br>
+			José<br>
+			21 anos<br>
+			Azul
+		</div>
+		
+		<div class="imagens">
+			<br><img alt="fotofem" src="img/fem.jpg" align="left">
+			<br>
+			Ana<br>
+			19 anos<br>
+			Rosa
+		</div>
 </body>
 </html>
